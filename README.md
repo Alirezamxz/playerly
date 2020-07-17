@@ -1,2 +1,2 @@
-# playerly
+# Playerly
 player with JS
