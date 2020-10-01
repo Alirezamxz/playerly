@@ -1,35 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Playerly</title>
-    <link rel="stylesheet" href="css/main.min.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+  <body>
     <div class="logo">
-        <img src="image/logo.png">
+      <img src="image/logo.png" />
     </div>
 
     <div class="player">
-        <video class="player-video viewer" src="video/video.mp4"></video>
-        <div class="player-controls">
-            <div class="progress">
-                <div class="progress-watched"></div>
-            </div>
-            <button class="player-btn toggle" title="Toggle Play">►</button>
-            <input type="range" name="volume" class="player-slider" min="0" max="1" step="0.05" value="0.7">
-            <input type="range" name="playbackRate" class="player-slider" min="0.5" max="2" step="0.1" value="1">
-            <button data-skip="-5" class="player-btn">-5s</button>
-            <button data-skip="10" class="player-btn">+10s</button>
+      <video class="player-video viewer" src="video/video.mp4"></video>
+      <div class="player-controls">
+        <div class="progress">
+          <div class="progress-watched"></div>
         </div>
+        <button class="player-btn toggle" title="Toggle Play">►</button>
+        <input
+          type="range"
+          name="volume"
+          class="player-slider"
+          min="0"
+          max="1"
+          step="0.05"
+          value="0.7"
+        />
+        <input
+          type="range"
+          name="playbackRate"
+          class="player-slider"
+          min="0.5"
+          max="2"
+          step="0.1"
+          value="1"
+        />
+        <button data-skip="-5" class="player-btn">-5s</button>
+        <button data-skip="10" class="player-btn">+10s</button>
+      </div>
     </div>
 
     <div class="github">
-        <a href="https://github.com/Alirezamxz/playerly">GitHub</a>
+      <a href="https://github.com/Alirezamxz/playerly">GitHub</a>
     </div>
 
     <script src="js/index.js"></script>
-</body>
+  </body>
 </html>
